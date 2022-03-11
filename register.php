@@ -12,9 +12,10 @@
 </head>
 <body>
 
-    <!-- ======= Formulario ======= -->
+    <!-- ======= Formulario de Registro ======= -->
     <div class="form-container">
         <form action="" meehod="post">
+            <h3>Registrar Agora</h3>
             <input type="text" name="name" placeholder="Digite o seu nome" require class="box">
             <input type="email" name="email" placeholder="Digite seu E-mail" require class="box">
             <input type="password" name="password" placeholder="Digite a sua senha" require class="box">
@@ -23,6 +24,8 @@
                 <option value="user">Usuário</option>
                 <option value="admin">Administrador</option>
             </select>
+            <input type="submit" name="submit" value="registrar agora" class="btn">
+            <p>Já tem uma conta? <a href="login.php">Conecte-se agora</a></p>
         </form>
     </div>
 
