@@ -11,6 +11,21 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+
+    <!-- ======= Formulario ======= -->
+    <div class="form-container">
+        <form action="" meehod="post">
+            <input type="text" name="name" placeholder="Digite o seu nome" require class="box">
+            <input type="email" name="email" placeholder="Digite seu E-mail" require class="box">
+            <input type="password" name="password" placeholder="Digite a sua senha" require class="box">
+            <input type="password" name="cpassword" placeholder="Confirme a sua senha" require class="box">
+            <select name="user_type">
+                <option value="user">Usuário</option>
+                <option value="admin">Administrador</option>
+            </select>
+        </form>
+    </div>
+
 	
 	<script src="js/script.js"></script>
 </body>
