@@ -45,6 +45,30 @@ html{
    overflow-x: hidden;
 }
 
+.btn,
+.option-btn,
+.delete-btn,
+.white-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 1.8rem;
+    border-radius: .5rem;
+    text-transform: capitalize;
+}
+
+.btn:hover,
+.option-btn:hover,
+.delete-btn:hover {
+    background-color: var(--black);
+}
+
+.btn {
+    background-color: var(--purple);
+}
+
 
 /* ======= Formulario de Registro ======= */
 .form-container {
@@ -73,7 +97,16 @@ html{
     color: var(--black);
 }
 
-
+.form-container form .box {
+    width: 100%;
+    border-radius: .5rem;
+    background-color: var(--light-bg);
+    font-size: 1.8rem;
+    padding: 1.2rem 1.4rem;
+    color: var(--black);
+    border: var(--border);
+    margin: 1rem 0;
+}
 
 
 
