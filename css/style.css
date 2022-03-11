@@ -65,8 +65,17 @@ html{
     background-color: var(--black);
 }
 
+.white-btn,
 .btn {
     background-color: var(--purple);
+}
+
+.option-btn {
+    background-color: var(--orange);
+}
+
+.delete-btn {
+    background-color: var(--red);
 }
 
 
@@ -108,8 +117,19 @@ html{
     margin: 1rem 0;
 }
 
+.form-container form p {
+    padding-top: 1.5rem;
+    font-size: 2rem;
+    color: var(--black);
+}
 
+.form-container form p a {
+    color: var(--purple);
+}
 
+.form-container form p a:hover {
+    text-decoration: underline;
+}
 
 
 

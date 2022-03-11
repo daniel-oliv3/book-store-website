@@ -20,7 +20,7 @@
             <input type="email" name="email" placeholder="Digite seu E-mail" require class="box">
             <input type="password" name="password" placeholder="Digite a sua senha" require class="box">
             <input type="password" name="cpassword" placeholder="Confirme a sua senha" require class="box">
-            <select name="user_type">
+            <select name="user_type" class="box">
                 <option value="user">Usuário</option>
                 <option value="admin">Administrador</option>
             </select>
